@@ -7,5 +7,12 @@ dependencies = [
 "argparse",
 ]
 
+[build-system]
+requires = [
+    "setuptools",
+    "setuptools-scm"
+]
+
+
 [project.scripts]
 metagoofil = "metagoofil:main"
