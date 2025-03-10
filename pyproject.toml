@@ -8,8 +8,5 @@ dependencies = [
 ]
 
 
-[tool.setuptools.package-data]
-"*" = ["*.txt"]
-
 [project.scripts]
 metagoofil = "metagoofil:main"
