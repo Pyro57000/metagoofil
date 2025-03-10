@@ -13,5 +13,8 @@ requires = [
     "setuptools-scm"
 ]
 
+[tool.setuptools.package-data]
+mypkg = ["user_agentes.txt"]
+
 [project.scripts]
 metagoofil = "metagoofil:main"
