@@ -16,9 +16,6 @@ requires = [
 [tool.setuptools]
 include-package-data = true
 
-[tool.setuptools.packages.find]
-where = ["data", "src"]
-
 
 [project.scripts]
 metagoofil = "metagoofil:main"
