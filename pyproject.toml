@@ -13,9 +13,5 @@ requires = [
     "setuptools-scm"
 ]
 
-[tool.setuptools.packages.find]
-where = ["."]
-
-
 [project.scripts]
 metagoofil = "metagoofil:main"
