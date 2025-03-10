@@ -4,14 +4,14 @@ version = "1.0"
 dependencies = [
 "google==3.0.0",
 "requests==2.13.3",
-"argparse"
-"os"
-"queue"
-"random"
-"sys"
-"threading"
-"time"
-"urllib"
+"argparse",
+"os",
+"queue",
+"random",
+"sys",
+"threading",
+"time",
+"urllib",
 ]
 
 [project.scripts]
