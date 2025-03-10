@@ -2,8 +2,8 @@
 name = "metagoofil"
 version = "1.0"
 dependencies = [
-"google==3.0.0",
-"requests==2.13.3",
+"google",
+"requests",
 "argparse",
 "os",
 "queue",
