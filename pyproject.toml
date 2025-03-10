@@ -13,6 +13,9 @@ requires = [
     "setuptools-scm"
 ]
 
+[tool.setuptools.packages.find]
+where = ["./*.txt"]
+
 [tool.setuptools.package-data]
 mypkg = ["user_agentes.txt"]
 
