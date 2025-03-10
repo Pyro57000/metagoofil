@@ -16,6 +16,11 @@ requires = [
 [tool.setuptools]
 include-package-data = true
 
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+mypkg = ["*.txt"]
 
 [project.scripts]
 metagoofil = "metagoofil:main"
