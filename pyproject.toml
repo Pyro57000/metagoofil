@@ -17,7 +17,7 @@ requires = [
 include-package-data = true
 
 [tool.setuptools.packages.find]
-where = ["data"]
+where = ["data", "src"]
 
 
 [project.scripts]
