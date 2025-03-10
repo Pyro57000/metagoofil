@@ -7,18 +7,6 @@ dependencies = [
 "argparse",
 ]
 
-[build-system]
-requires = [
-    "setuptools",
-    "setuptools-scm"
-]
-
-[tool.setuptools]
-include-package-data = true
-
-[tool.setuptools.packages.find]
-where = ["data"]
-
 
 [tool.setuptools.package-data]
 "*" = ["*.txt"]
