@@ -7,6 +7,5 @@ dependencies = [
 "argparse",
 ]
 
-
 [project.scripts]
 metagoofil = "metagoofil:main"
