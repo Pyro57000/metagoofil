@@ -257,8 +257,7 @@ def positive_float(value):
     except (AssertionError, ValueError):
         raise argparse.ArgumentTypeError(f"invalid value '{value}', must be a float >= 0")
 
-
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(
         description=f"Metagoofil v{__version__} - Search Google and download specific file types.",
         formatter_class=SmartFormatter,
@@ -377,3 +376,6 @@ if __name__ == "__main__":
     mg.go()
 
     print("[+] Done!")
+
+if __name__ == "__main__":
+    main()
