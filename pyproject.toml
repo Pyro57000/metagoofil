@@ -2,8 +2,8 @@
 name = "metagoofil"
 version = "1.0"
 dependencies = {
-"google",
-"requests"
+"google==3.0.0",
+"requests==2.13.3"
 }
 
 [project.scripts]
