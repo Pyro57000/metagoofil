@@ -7,4 +7,4 @@ dependencies = {
 }
 
 [project.scripts]
-metagoofil = "metagoofl:main"
+metagoofil = "metagoofil:main"
