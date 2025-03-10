@@ -5,13 +5,6 @@ dependencies = [
 "google",
 "requests",
 "argparse",
-"os",
-"queue",
-"random",
-"sys",
-"threading",
-"time",
-"urllib",
 ]
 
 [project.scripts]
