@@ -14,7 +14,7 @@ requires = [
 ]
 
 [tool.setuptools.packages.find]
-where = ["."]
+where = ["data"]
 
 [tool.setuptools.package-data]
 mypkg = ["user_agentes.txt"]
