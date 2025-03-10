@@ -1,0 +1,10 @@
+[project]
+name = "metagoofil"
+version = "1.0"
+dependencies = {
+    "google",
+    "requests"
+}
+
+[project.scripts]
+metagoofil = "metagoofl:main"
